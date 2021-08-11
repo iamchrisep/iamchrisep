@@ -76,6 +76,9 @@
 }
 
 .button404 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background: none;
     border: none;
     box-shadow: none;
@@ -83,4 +86,10 @@
     font-size: 2rem;
     padding: 0.5em 1em;
     margin-top: 0.5em;
+}
+
+#back {
+    width: 2em;
+    display: flex;
+    margin-right: 0.5em;
 }
