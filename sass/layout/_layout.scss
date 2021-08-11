@@ -45,6 +45,13 @@ button {
     cursor: url(/images/cursors/Bad_Printing_Cursor/pointer.png), pointer;
 }
 
+#bm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
 .container {
     margin: 0 auto;
     max-width: 90vw;
