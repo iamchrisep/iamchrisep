@@ -34,6 +34,8 @@
     "start": "react-scripts start",
     "sass": "sass public/sass/main.scss:public/css/main.css",
     "sass:watch": "sass --watch public/sass/main.scss:public/css/main.css",
+    "lint": "eslint './src/**/*.{ts,tsx}'",
+    "lint:watch": "watch 'npm run lint' .",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",

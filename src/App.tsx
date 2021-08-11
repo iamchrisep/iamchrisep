@@ -6,7 +6,7 @@ import * as style from '@dicebear/micah';
 import Lottie from 'react-lottie';
 
 // animations
-import { animationOptions } from './utils/animations/animationOptions';
+import animationOptions from './utils/animations/animationOptions';
 import Page404 from './utils/animations/animationJson/404.json';
 import Background07 from './utils/animations/animationJson/background-07.json';
 
