@@ -405,13 +405,6 @@ button {
   cursor: url(/images/cursors/Bad_Printing_Cursor/pointer.png), pointer;
 }
 
-#bm {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-}
-
 .container {
   margin: 0 auto;
   max-width: 90vw;
@@ -480,7 +473,7 @@ button {
   }
 }
 #body404 {
-  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  background: radial-gradient(ellipse at bottom, #2552B7 0%, #1A1A2E 100%);
   overflow: hidden;
 }
 
@@ -533,6 +526,25 @@ button {
   height: 3px;
   background: transparent;
   box-shadow: 1418px 450px #FFF, 816px 1212px #FFF, 190px 119px #FFF, 975px 1537px #FFF, 709px 1772px #FFF, 1237px 167px #FFF, 1968px 982px #FFF, 1398px 1964px #FFF, 1757px 1924px #FFF, 810px 1633px #FFF, 1202px 1186px #FFF, 33px 282px #FFF, 173px 1457px #FFF, 934px 1981px #FFF, 277px 1789px #FFF, 491px 1880px #FFF, 1435px 1966px #FFF, 520px 533px #FFF, 46px 416px #FFF, 1201px 62px #FFF, 696px 737px #FFF, 874px 1502px #FFF, 407px 413px #FFF, 448px 991px #FFF, 222px 1133px #FFF, 610px 1535px #FFF, 636px 1661px #FFF, 1706px 1409px #FFF, 15px 375px #FFF, 1989px 1099px #FFF, 67px 1068px #FFF, 1251px 1957px #FFF, 520px 226px #FFF, 162px 834px #FFF, 237px 658px #FFF, 1631px 1643px #FFF, 536px 107px #FFF, 1963px 976px #FFF, 59px 921px #FFF, 315px 1588px #FFF, 1225px 1074px #FFF, 214px 1700px #FFF, 746px 790px #FFF, 1807px 1919px #FFF, 1168px 517px #FFF, 55px 1367px #FFF, 457px 51px #FFF, 322px 812px #FFF, 1231px 42px #FFF, 1274px 1270px #FFF, 1768px 1184px #FFF, 1177px 200px #FFF, 1751px 903px #FFF, 1588px 627px #FFF, 116px 1390px #FFF, 538px 789px #FFF, 858px 1627px #FFF, 878px 584px #FFF, 922px 1725px #FFF, 1325px 1290px #FFF, 1127px 1019px #FFF, 1628px 1346px #FFF, 1431px 958px #FFF, 1283px 1439px #FFF, 1772px 1593px #FFF, 1595px 1332px #FFF, 498px 49px #FFF, 1367px 1583px #FFF, 1392px 1356px #FFF, 1142px 878px #FFF, 1903px 1618px #FFF, 1151px 1167px #FFF, 546px 1478px #FFF, 1060px 1200px #FFF, 695px 1972px #FFF, 648px 753px #FFF, 1954px 763px #FFF, 780px 524px #FFF, 52px 1596px #FFF, 987px 1651px #FFF, 1521px 927px #FFF, 1916px 1972px #FFF, 1466px 1024px #FFF, 1160px 846px #FFF, 1134px 1366px #FFF, 90px 185px #FFF, 1570px 152px #FFF, 1565px 465px #FFF, 872px 1743px #FFF, 1427px 291px #FFF, 710px 1298px #FFF, 670px 1783px #FFF, 1100px 349px #FFF, 1481px 1209px #FFF, 587px 1042px #FFF, 452px 1681px #FFF, 1846px 1925px #FFF, 1671px 404px #FFF, 635px 1388px #FFF, 1713px 1832px #FFF;
+}
+
+.container404 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  z-index: 1;
+}
+
+.button404 {
+  background: none;
+  border: none;
+  box-shadow: none;
+  outline: none;
+  font-size: 2rem;
+  padding: 0.5em 1em;
+  margin-top: 0.5em;
 }
 
 /*# sourceMappingURL=main.css.map */
