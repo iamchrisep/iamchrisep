@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import Typewriter from 'typewriter-effect';
 import { createAvatar } from '@dicebear/avatars';
 import * as style from '@dicebear/micah';
@@ -7,7 +6,6 @@ import Lottie from 'react-lottie';
 
 // animations
 import animationOptions from './utils/animations/animationOptions';
-import Page404 from './utils/animations/animationJson/404.json';
 import Background07 from './utils/animations/animationJson/background-07.json';
 
 function App() {
@@ -32,7 +30,7 @@ function App() {
 
     return (
         <>
-            <header className="App-header">
+            <header className="header">
                 <div className="container">
                     <Typewriter
                         options={{
@@ -42,19 +40,14 @@ function App() {
                         }}
                     />
                     <div
-                        className="App-avatar"
+                        className="avatar"
                         dangerouslySetInnerHTML={{ __html: svg }}
                     />
-                    <button type="button">TEST</button>
+                    <button type="button">Test</button>
                 </div>
             </header>
-            <section className="App-section">
-                <div className="container">
-                    <Lottie options={animationOptions(Page404, true, true)} />
-                </div>
-            </section>
-            <footer className="App-footer">
-                <div className="container">
+            <footer className="footer">
+                <div>
                     <Lottie
                         options={animationOptions(Background07, true, true)}
                     />
