@@ -1,0 +1,64 @@
+.develop-info {
+    position: absolute;
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    bottom: calc(100% + 2em);
+    left: calc(90% + 2.5em);
+    width: 15em;
+    background-color: $black;
+    color: $white;
+    border: 0.125em solid $white;
+    padding: 1em 2em;
+    opacity: 0;
+    transition: .3s ease-out;
+    visibility: hidden;
+
+    @include media-md {
+        left: calc(100% + 1em);
+    }
+
+    &:before,
+    &:after {
+        content: ' ';
+        position: absolute;
+        width: 0;
+        height: 0;
+    }
+
+    &:before {
+        bottom: -16px;
+        left: calc(100% - 40px);
+        border: 8px solid;
+        border-color: $white $white transparent transparent;
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+    }
+
+    &:after {
+        bottom: -11px;
+        left: calc(100% - 42px);
+        border: 12px solid;
+        border-color: $black $black transparent transparent;
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+    }
+
+    &__title {
+        display: flex;
+        align-items: center;
+    }
+
+    &__heart-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__heart {
+        fill: $yellow;
+        position: relative;
+        width: 1.5em;
+        animation: pulse 3s ease infinite;
+        margin: 0 0.5em;
+    }
+}
