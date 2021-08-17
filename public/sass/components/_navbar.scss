@@ -1,0 +1,146 @@
+.navbar {
+    font-size: 1rem;
+    background-color: $black;
+    color: $white;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    z-index: 10000;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    @include media-lg {
+        z-index: 10;
+        height: auto;
+        border-top: 2px solid $white;
+    }
+
+    &_open {
+        height: 100vh;
+
+        @include media-lg {
+            height: auto;
+        }
+
+        .navbar__wrapper {
+            visibility: visible;
+            opacity: 1;
+        }
+    }
+
+    &__button-wrapper {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        position: fixed;
+        bottom: 0;
+        height: 4em;
+        width: 100%;
+        background-color: $black;
+        border-top: 2px solid $white;
+
+        @include media-lg {
+            display: none;
+        }
+
+        & * {
+            box-sizing: content-box;
+        }
+    }
+
+    &__button {
+        height: 4em;
+        width: 3em;
+        padding: 0 1em;
+        border-left: 2px solid $white;
+        border-top: 2px solid $white;
+        border-right: none;
+        border-bottom: none;
+        color: $white;
+        background-color: $black;
+
+        &:hover {
+            color: $white;
+        }
+
+        @include media-lg {
+            display: none;
+        }
+
+        & .hamburger-react {
+            width: 100% !important;
+        }
+    }
+
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        position: fixed;
+        top: 0;
+        bottom: 4em;
+        flex-direction: column;
+        overflow-y: auto;
+        width: 100%;
+        visibility: hidden;
+        opacity: 0;
+
+        @include media-lg {
+            position: static;
+            bottom: 0;
+            flex-direction: row;
+            justify-content: space-between;
+            overflow-y: hidden;
+            width: auto;
+            visibility: visible;
+            opacity: 1;
+        }
+    }
+
+    &__link {
+        font-size: 0.875rem;
+        font-weight: 700;
+        color: $white;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 1em;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        width: 100%;
+
+
+        @include media-lg {
+            font-size: 1rem;
+            padding: 1em 2em;
+            border-left: 2px solid $white;
+            flex-direction: column;
+            justify-content: center;
+            width: auto;
+        }
+
+        &:last-child {
+            margin-right: 0;
+        }
+
+        &-active {
+            color: $yellow;
+        }
+    }
+
+    &__icon {
+        font-size: 2rem;
+        margin-right: 0.5em;
+
+        @include media-lg {
+            margin-right: 0;
+        }
+    }
+
+    &__text {
+        margin-top: 0.5em;
+    }
+}

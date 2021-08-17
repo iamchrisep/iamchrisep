@@ -51,6 +51,7 @@
           ".tsx"
         ]
       }
-    ]
+    ],
+    "react/prop-types": "off"
   }
 }

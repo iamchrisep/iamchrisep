@@ -1,0 +1,17 @@
+.scrollToTop {
+    position: fixed;
+    font-size: 2rem;
+    padding: 0.25em;
+    border: 2px solid $black;
+    width: 2em;
+    height: 2em;
+    bottom: 4em;
+    right: 1em;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    background: $white;
+    box-shadow: none;
+    outline: none;
+    filter: invert(100%);
+}

@@ -1,11 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { HashRouter } from 'react-router-dom';
+import smoothScrollPolyfill from 'smoothscroll-polyfill';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+smoothScrollPolyfill.polyfill();
+
 ReactDOM.render(
     <React.StrictMode>
-        <App />
+        <HashRouter>
+            <App />
+        </HashRouter>
     </React.StrictMode>,
     document.getElementById('root'),
 );

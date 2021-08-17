@@ -4,10 +4,22 @@
 
 @import "abstracts/variables";
 @import "abstracts/mixins";
+@import "abstracts/animations";
 
 @import "base/normalize";
 @import "base/typography";
 
 @import "layout/layout";
+@import "layout/header";
+@import "layout/footer";
+@import "layout/main";
 @import "layout/nosript";
 @import "layout/404";
+
+@import "components/stars";
+@import "components/heading";
+@import "components/buttons";
+@import "components/speechBubble";
+@import "components/scrollToTop";
+@import "components/navbar";
+@import "components/developInfo";
