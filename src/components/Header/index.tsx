@@ -53,7 +53,7 @@ const Header: FunctionComponent = () => {
                                 strings: [
                                     'Hello!',
                                     'My name is Krystsina :)',
-                                    'I am a frontend developer ♥',
+                                    'I am a frontend developer ❤',
                                 ],
                                 autoStart: true,
                                 loop: true,
