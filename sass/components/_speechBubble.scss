@@ -1,5 +1,6 @@
 .speech-bubble {
     font-size: 1rem;
+    line-height: 1.5em;
     position: relative;
     display: flex;
     align-items: center;
@@ -7,11 +8,16 @@
     width: 10em;
     height: 2.5em;
     text-align: center;
-    margin: 0 auto 2.5em auto;
+    margin: 0 0 2.5em 0;
     background-color: $black;
     color: $yellow;
     border: 0.125em solid $white;
-    padding: 1em;
+    padding: 1em 2em;
+    box-sizing: content-box;
+
+    & * {
+        box-sizing: content-box;
+    }
 
     &:before,
     &:after {
