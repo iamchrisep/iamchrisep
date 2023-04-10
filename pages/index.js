@@ -124,7 +124,7 @@ export default function Portfolio() {
               I participate in all stages of the web application development cycle.
               I am engaged in the recruiting and training of junior specialists, project management and communication with clients.
               Also, I have experience not only in web development, so I have worked with other technologies.
-              I have a Bachelor Degree in Information Technology Software.
+              I have a Bachelor's degree in Information Technology Software.
             </span>
           </div>
           <div className={styles.person}>
@@ -280,6 +280,7 @@ export default function Portfolio() {
                 <h4 className={styles.location}>Minsk, Belarus</h4>
                 <h3 className={styles.hl}>Belarusian State University of Informatics and Radioelectronics</h3>
                 <h4 className={styles.hl}>Institute of Information Technologies</h4>
+                <h5 className={styles.hl}>Bachelor's degree</h5>
                 <h5>2015 &ndash; 2019</h5>
                 <h5 className={styles.skills}>
                   <span>Speciality:&nbsp;</span>
@@ -293,6 +294,8 @@ export default function Portfolio() {
               <div className={styles.elem}>
                 <h4 className={styles.location}>Minsk, Belarus</h4>
                 <h3 className={styles.hl}>Minsk State Higher Radiotechnical College</h3>
+                <h4 className={styles.hl}>Software of mathematical information processing</h4>
+                <h5 className={styles.hl}>Specialized secondary education</h5>
                 <h5>2010 &ndash; 2014</h5>
                 <h5 className={styles.skills}>
                   <span>Speciality:&nbsp;</span>
