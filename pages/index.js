@@ -58,7 +58,7 @@ export default function Portfolio() {
       </Head>
       <nav className={styles.social}>
         <a
-            href="@/public/CV.pdf"
+            href="/CV.pdf"
             download="CV_Krystsina_Bahdanava.pdf"
         >
           <FaPaperclip size={24} />
@@ -136,7 +136,7 @@ export default function Portfolio() {
             <img src={avatar} alt="Avatar" />
             <a
                 className={`${styles.download} ${cutive_mono.className}`}
-                href="@/public/CV.pdf"
+                href="/CV.pdf"
                 download="CV_Krystsina_Bahdanava.pdf"
             >
               Download CV
