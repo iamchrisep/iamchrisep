@@ -21,7 +21,7 @@ import {
 import styles from '@/styles/Portfolio.module.css';
 import snapcart from '@/public/snapcart.png';
 import gwo from '@/public/gwo.png';
-import love from '@/public/love.png';
+import securelab from '@/public/securelab.png';
 import gs from '@/public/gs.png';
 
 const cutive_mono = Cutive_Mono({ weight: '400', subsets: ['latin'] });
@@ -196,7 +196,7 @@ export default function Portfolio() {
             <div className={styles.expwrap}>
               <div className={styles.elem}>
                 <Image src={snapcart} alt='snapcart' className={styles.logo} />
-                <h4 className={styles.location}>Wejherowo, Poland &bull; Remote</h4>
+                <h4 className={styles.location}>Jakarta, Indonesia &bull; Remote</h4>
                 <h3 className={styles.hl}>Senior Software Engineer</h3>
                 <h5>Mar 2022 &ndash; Dec 2022 &bull; 10 mos &bull; Full-time</h5>
                 <span className={styles.description}>
@@ -235,8 +235,8 @@ export default function Portfolio() {
                 </h5>
               </div>
               <div className={styles.elem}>
-                <Image src={love} alt='love' className={styles.logo} />
-                <h4 className={styles.location}>Gdynia, Poland &bull; Remote</h4>
+                <Image src={securelab} alt='securelab' className={styles.logo} />
+                <h4 className={styles.location}>Gibraltar &bull; Remote</h4>
                 <h3 className={styles.hl}>Frontend Developer</h3>
                 <h5>Dec 2016 &ndash; Aug 2021 &bull; 4 yrs 9 mos &bull; Full-time</h5>
                 <span className={styles.description}>
