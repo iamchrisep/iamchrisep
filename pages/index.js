@@ -9,7 +9,8 @@ import {
   FaPaperclip,
   FaRegEnvelope,
   FaTiktok,
-  FaTwitch
+  FaTwitch,
+  FaExternalLinkAlt
 } from "react-icons/fa";
 import Head from 'next/head';
 import Image from 'next/image';
@@ -23,6 +24,7 @@ import snapcart from '@/public/snapcart.png';
 import gwo from '@/public/gwo.png';
 import securelab from '@/public/securelab.png';
 import gs from '@/public/gs.png';
+import hp from '@/public/hp.png';
 
 const cutive_mono = Cutive_Mono({ weight: '400', subsets: ['latin'] });
 const gowun_dodum = Gowun_Dodum({ weight: '400', subsets: ['latin'] });
@@ -37,7 +39,7 @@ export default function Portfolio() {
       earringsColor: ['899499'],
       eyebrows: ['variant07'],
       eyes: ['variant23'],
-      hair: ['variant35'],
+      hair: ['variant15'],
       head: ['variant04'],
       mouth: ['happy03'],
       nose: ['variant04'],
@@ -314,7 +316,31 @@ export default function Portfolio() {
             <h2 className={`${styles.hl2} ${cutive_mono.className}`}>
               &lt;Portfolio&nbsp;&frasl;&gt;
             </h2>
-            <span>Coming soon...</span>
+            <div className={styles.projects}>
+              <div className={styles.project}>
+                <Image src={hp} alt="hp" />
+                <div className={styles.projlink}>
+                  <FaExternalLinkAlt size={16} />
+                  <a
+                      href="/hp-db"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                  >
+                    Demo
+                  </a>
+                </div>
+                <div className={styles.projlink}>
+                  <FaExternalLinkAlt size={16} />
+                  <a
+                      href="https://github.com/iamchrisep/hp-db"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                  >
+                    Github
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </main>

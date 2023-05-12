@@ -247,6 +247,42 @@
   margin-top: 1rem;
 }
 
+.projects {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  gap: 0.5rem;
+  border: 4px solid var(--black);
+  padding: 2rem 3rem;
+}
+
+.projlink {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.project img {
+  max-width: 240px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.project a {
+  display: flex;
+  border-bottom: 2px solid transparent;
+}
+
+.project a:hover {
+  border-bottom: 2px solid var(--black);
+}
+
 /* Mobile */
 @media (max-width: 700px) {
   .content {
