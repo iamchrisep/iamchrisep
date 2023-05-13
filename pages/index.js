@@ -25,6 +25,7 @@ import gwo from '@/public/gwo.png';
 import securelab from '@/public/securelab.png';
 import gs from '@/public/gs.png';
 import hp from '@/public/hp.png';
+import bored from '@/public/bored.png';
 
 const cutive_mono = Cutive_Mono({ weight: '400', subsets: ['latin'] });
 const gowun_dodum = Gowun_Dodum({ weight: '400', subsets: ['latin'] });
@@ -333,6 +334,29 @@ export default function Portfolio() {
                   <FaExternalLinkAlt size={16} />
                   <a
                       href="https://github.com/iamchrisep/hp-db"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                  >
+                    Github
+                  </a>
+                </div>
+              </div>
+              <div className={styles.project}>
+                <Image src={bored} alt="bored" />
+                <div className={styles.projlink}>
+                  <FaExternalLinkAlt size={16} />
+                  <a
+                      href="/bored"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                  >
+                    Demo
+                  </a>
+                </div>
+                <div className={styles.projlink}>
+                  <FaExternalLinkAlt size={16} />
+                  <a
+                      href="https://github.com/iamchrisep/bored"
                       target="_blank"
                       rel="noopener noreferrer"
                   >
