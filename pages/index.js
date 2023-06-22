@@ -28,6 +28,8 @@ import hp from '@/public/hp.png';
 import bored from '@/public/bored.png';
 import popIt from '@/public/pop-it.png';
 import svgProject from '@/public/svg-project.png';
+import morse from '@/public/morse.png';
+import simpleExcel from '@/public/simple-excel.png';
 
 const cutive_mono = Cutive_Mono({ weight: '400', subsets: ['latin'] });
 const gowun_dodum = Gowun_Dodum({ weight: '400', subsets: ['latin'] });
@@ -405,6 +407,52 @@ export default function Portfolio() {
                   <FaExternalLinkAlt size={16} />
                   <a
                       href="https://github.com/iamchrisep/svg-project"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                  >
+                    Github
+                  </a>
+                </div>
+              </div>
+              <div className={styles.project}>
+                <Image src={morse} alt="morse" />
+                <div className={styles.projlink}>
+                  <FaExternalLinkAlt size={16} />
+                  <a
+                      href="/morse"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                  >
+                    Demo
+                  </a>
+                </div>
+                <div className={styles.projlink}>
+                  <FaExternalLinkAlt size={16} />
+                  <a
+                      href="https://github.com/iamchrisep/morse"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                  >
+                    Github
+                  </a>
+                </div>
+              </div>
+              <div className={styles.project}>
+                <Image src={simpleExcel} alt="simple-excel" />
+                <div className={styles.projlink}>
+                  <FaExternalLinkAlt size={16} />
+                  <a
+                      href="/simple-excel"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                  >
+                    Demo
+                  </a>
+                </div>
+                <div className={styles.projlink}>
+                  <FaExternalLinkAlt size={16} />
+                  <a
+                      href="https://github.com/iamchrisep/simple-excel"
                       target="_blank"
                       rel="noopener noreferrer"
                   >
