@@ -78,7 +78,7 @@ export default function Portfolio() {
           <FaRegEnvelope size={24} />
         </a>
         <a
-            href="https://www.linkedin.com/in/krystsina-bahdanava/"
+            href="https://www.linkedin.com/in/iamchrisep/"
             target="_blank"
             rel="noopener noreferrer"
         >
