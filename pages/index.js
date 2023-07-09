@@ -92,28 +92,28 @@ export default function Portfolio() {
           <FaBehance size={24} />
         </a>
         <a
-            href="https://www.facebook.com/krystsina.bahdanava/"
+            href="https://www.facebook.com/iamchrisep/"
             target="_blank"
             rel="noopener noreferrer"
         >
           <FaFacebookF size={24} />
         </a>
         <a
-            href="https://www.instagram.com/krystsina.bahdanava/"
+            href="https://www.instagram.com/iamchrisep/"
             target="_blank"
             rel="noopener noreferrer"
         >
           <FaInstagram size={24} />
         </a>
         <a
-            href="https://www.tiktok.com/@krystsina.bahdanava"
+            href="https://www.tiktok.com/@iamchrisep"
             target="_blank"
             rel="noopener noreferrer"
         >
           <FaTiktok size={24} />
         </a>
         <a
-            href="https://www.twitch.tv/adadarska"
+            href="https://www.twitch.tv/iamchrisep"
             target="_blank"
             rel="noopener noreferrer"
         >
