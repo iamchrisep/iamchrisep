@@ -300,7 +300,7 @@ export default function Portfolio() {
               </div>
               <div className={styles.elem}>
                 <h4 className={styles.location}>Minsk, Belarus</h4>
-                <h3 className={styles.hl}>Minsk State Higher Radiotechnical College</h3>
+                <h3 className={styles.hl}>Minsk State Higher Radioengineering College</h3>
                 <h4 className={styles.hl}>Software of mathematical information processing</h4>
                 <h5 className={styles.hl}>Specialized secondary education</h5>
                 <h5>2010 &ndash; 2014</h5>
