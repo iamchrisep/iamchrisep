@@ -22,7 +22,7 @@ import {
 import styles from '@/styles/Portfolio.module.css';
 import snapcart from '@/public/snapcart.png';
 import gwo from '@/public/gwo.png';
-import securelab from '@/public/securelab.png';
+import love from '@/public/love.png';
 import gs from '@/public/gs.png';
 import hp from '@/public/hp.png';
 import bored from '@/public/bored.png';
@@ -242,8 +242,8 @@ export default function Portfolio() {
                 </h5>
               </div>
               <div className={styles.elem}>
-                <Image src={securelab} alt='securelab' className={styles.logo} />
-                <h4 className={styles.location}>Gibraltar &bull; Remote</h4>
+                <Image src={love} alt='love' className={styles.logo} />
+                <h4 className={styles.location}>Dublin, Ireland &bull; Remote</h4>
                 <h3 className={styles.hl}>Frontend Developer</h3>
                 <h5>Dec 2016 &ndash; Aug 2021 &bull; 4 yrs 9 mos &bull; Full-time</h5>
                 <span className={styles.description}>
