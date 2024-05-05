@@ -4,7 +4,7 @@ import Page404 from "@/app/components/Page404";
 export default function NotFound() {
     return (
         <main className="flex flex-col w-screen h-screen justify-center items-center gap-10 p-5">
-            <div className="max-h-[50vw] max-w-[75vw]">
+            <div className="max-h-[50vw] max-w-[75vw] cursor-default pointer-events-none">
                 <Page404/>
             </div>
             <div className="text-xl font-bold">
