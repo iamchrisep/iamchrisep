@@ -7,8 +7,8 @@ export default function NotFound() {
             <div className="max-h-[50vw] max-w-[75vw] cursor-default pointer-events-none">
                 <Page404/>
             </div>
-            <div className="text-xl font-bold">
-                Houston, we have a problem
+            <div className="font-sugarCream text-6xl">
+                &lt; Houston, we have a problem … &gt;
             </div>
             <Link
                 className="flex items-center justify-center relative mt-10 px-8 py-4 text-black text-xl font-semibold overflow-hidden border-2 border-black bg-white transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-black before:transition-all before:duration-500 hover:text-white hover:before:left-0 hover:before:w-full hover:before:bg-black"
